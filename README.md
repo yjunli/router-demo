@@ -1,0 +1,5 @@
+注意这里的NavLink标签的activeStyle属性：
+    NavLink标签和Link标签最主要的区别在于NavLink标签有activeStyle和activeClassName，用于更改被选中元素的样式
+
+对于普通系统，采用Route标签的方式配置路由更加直观，但是对于涉及到权限的路由系统，即有的页面需要权限才能访问，有的则不需要权限。此时我们采用本文当方式更加便捷
+本文的例子来自官网 https://reacttraining.com/react-router/web/example/auth-workflow
